@@ -65,7 +65,7 @@ def main():
                 make_move(board, move)
                 if is_solved(board):
                     print_board(board)
-                    print("Gratulacje! Ułożyłeś planszę!")
+                    print("Gratulacje! Ułożyłeś planszę!!!")
                     break
             else:
                 print("Nieprawidłowy ruch. Spróbuj ponownie.")
